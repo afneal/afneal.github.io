@@ -20,14 +20,11 @@
 
 title: Alex's Portfolio
 email: afneal0226@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: 
+description: Aspiring software developer with a strong analytical background, focused on solving problems and building web applications using JavaScript, React, and HTML/CSS.
+baseurl: ""
 url: "https://afneal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  afneal
+linkedin_url: www.linkedin.com/in/alexandria-neal-2461743a4
 
 # Build settings
 theme: minima
