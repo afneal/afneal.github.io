@@ -26,10 +26,17 @@ url: "https://afneal.github.io" # the base hostname & protocol for your site, e.
 github_username:  afneal
 linkedin_url: www.linkedin.com/in/alexandria-neal-2461743a4
 
-# Build settings
+
+
 theme: minima
+
+
 plugins:
   - jekyll-feed
+ 
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
