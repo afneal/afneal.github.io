@@ -1,0 +1,406 @@
+---
+---
+
+
+/* General body */
+body {
+  background-color: #f0f7ff; 
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin: 0;
+}
+
+
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+/* About Section */
+
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  gap: 2rem; 
+  padding: 1.5rem 1rem;
+  background: #f0f7ff; 
+  margin: 0 auto;
+}
+
+.about-me-container .wrapper {
+  max-width: 1200px; 
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.profile-photo {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-wrapper {
+  display: inline-block;
+  width: 250px;      
+  height: 350px;        
+  border-radius: 50% / 50%; 
+  overflow: hidden;
+  border: 3px solid #b3aed6; 
+  background-color: #b3aed6;  
+  box-shadow: 
+      0 6px 60px rgba(106, 76, 147, 0.3),  
+      
+}
+
+.photo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      
+  display: block;
+  border-radius: 50% / 50%; 
+}
+
+.about-me-text {
+  flex: 2 1 400px; 
+  font-size: 1.125rem; 
+  line-height: 1.6;
+}
+
+.about-me-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #6a4c93; 
+}
+
+.about-me-text p {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+
+  background: #ffffff; 
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  width: 100%;
+}
+
+
+
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #c3aed6;
+  border-bottom: 3px solid #b3cde0;
+  padding-bottom: 0.25rem;
+}
+
+
+
+
+/* Resume button */
+.resume-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #c3aed6;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.resume-button:hover {
+  background-color: #b39ddb;
+  transform: scale(1.05);
+}
+
+
+/* Resume section */
+.resume {
+  padding: 3rem 0;
+  background: #f0f7ff;
+}
+
+/* Subtitles inside the resume card */
+.resume-card .resume-subtitle {
+  font-size: 1.5rem;
+  color: #6a4c93;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #d0c4e0; 
+}
+
+
+.resume-card .role-title {
+  font-size: 1.2rem;
+  color: #444;
+  margin: 0.5rem 0 0.25rem;
+  padding-bottom: 0.15rem;
+}
+
+.resume-header {
+  position: relative;
+  text-align: center;      
+  margin-bottom: 2rem;
+  padding: 1rem 0 0.5rem 0; 
+}
+
+
+
+.resume-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+.resume-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff; 
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+
+.site-footer {
+  text-align: center;
+  padding: 1rem 1rem;   
+  background: #b3cde0;
+  color: #fff;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .profile-photo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-me-text {
+    text-align: center;
+  }
+}
+
+
+.skills {
+  padding: 3rem 0;
+  background: #fef6f9; 
+  border-radius: 15px;
+  text-align: center;
+}
+
+.skills-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.skill img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  filter: brightness(0.8); 
+  
+}
+
+.skill span {
+  display: block;
+  font-weight: 600;
+  color: #6a4c93; 
+  margin-top: 0.25rem;
+}
+
+
+
+
+/* Projects Section */
+.projects {
+  width: 100%;
+  padding: 3rem 1rem;
+  background: #f0f7ff;
+}
+
+.projects .wrapper, .skills .wrapper, 
+.resume .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  
+}
+
+.projects .section-title,
+.skills .section-title,
+.resume .section-title
+ {
+  text-align: center;
+  font-size: 2rem;
+  color: #6a4c93; 
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #a0c4ff;
+  padding-bottom: 0.25rem;
+}
+
+/* Project card styling */
+.project-card, 
+.skills-card,
+.resume-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+}
+
+.project-card h3 {
+  color: #6a4c93;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.project-photos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;       
+  margin-top: 1rem;
+ 
+}
+
+
+
+.project-photos img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border: solid #b3cde0 2px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  border: 2px solid rgba(163, 197, 255, 0.4);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+
+@media (min-width: 1300px) {
+  .project-photos {
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .project-photos img {
+    max-width: 100%; 
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.project-description {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  
+}
+
+.project-description ul {
+  padding-left: 1.5rem;
+}
+
+.project-description li {
+  margin-bottom: 0.5rem;
+ 
+}
+
+
+
+@media (max-width: 768px) {
+  .project-card, .project-photos img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+

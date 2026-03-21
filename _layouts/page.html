@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+
+<body>
+
+
+
+  <section id="about" class="about-me-container">
+    <div class="wrapper">
+      <div class="about-card">
+
+        <div class="profile-photo">
+          <div class="photo-wrapper">
+            <img src="{{'/assets/images/profile.photo.jpg' | relative_url }}" alt="Profile Photo of Alex Neal">
+          </div>
+        </div>
+
+        <div class="about-me-text">
+          <h2>Hello, I'm Alex! </h2>
+
+          <p>I am an analytical problem-solver who enjoys turning challenges into real solutions. After several years
+            working in regulated laboratory environments, I've recently jumped into software development, building
+            skills in Java, JavaScript, Spring Boot, MySQL, React, HTML, CSS, and Git.</p> </br>
+          <p>I'm looking for a junior developer role where I can combine my problem-solving, curiosity, and coding
+            skills to create reliable and user-friendly applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="projects">
+    <div class="wrapper">
+      <h2 class="section-title">Projects</h2>
+
+
+      <div class="project-card">
+        <h3>Travel Mate</h3>
+
+        <ul class="project-description">
+          <li>A React-based web application using modular, reusable components to plan, save, and
+            manage travel itineraries.</li>
+          <li>Includes multi-page navigation using React Router, ensuring a seamless user experience.</li>
+          <li>Functional backend services using Java and Spring Boot to support user accounts, persistent data storage,
+            and
+            full CRUD operations with MySQL.</li>
+          <li>Integrates a third-party exchange REST API and handles asynchronous data fetching and state management in
+            React.</li>
+        </ul>
+
+        <div class="project-photos">
+
+          <img src="{{ '/assets/images/travel_mate_fullstack.png' | relative_url }}" alt="Java">
+
+          <img src="{{ '/assets/images/travel_mate_fullstack_home.png' | relative_url }}" alt="Java">
+
+          <img src="{{ '/assets/images/travel_mate_fullstack_trip_itinerary.png' | relative_url}}" alt="Java">
+
+          <img src="{{ '/assets/images/travel_mate_fullstack_activity.png' | relative_url}}" alt="Java">
+
+
+          <img src="{{ '/assets/images/travel_mate_fullstack_flights_lists.png' | relative_url}}" alt="Java">
+
+
+          <img src="{{ '/assets/images/travel_mate_fullstack_exchange.png' | relative_url}}" alt="Java">
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section id="skills" class="skills">
+    <div class="wrapper">
+      <h2 class="section-title">Skills</h2>
+
+
+
+      <div class="skills-card">
+        <div class="skill">
+          <img src="{{ '/assets/icons/javascript.svg' | relative_url}}" alt="Java">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/java.svg' | relative_url}}" alt="Java Logo">
+          <span>Java</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/react.svg' | relative_url}}" alt="React Icon">
+          <span>React</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/springboot.svg' | relative_url}}" alt="Spring Boot Icon">
+          <span>Spring Boot</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/mysql.svg' | relative_url}}" alt="MySQL" class="custom-icon">
+          <span>MySQL</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/html5.svg' | relative_url}}" alt="HTML5 Icon">
+          <span>HTML</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/css.svg' | relative_url}}" alt="CSS3 Icon">
+          <span>CSS</span>
+        </div>
+        <div class="skill">
+          <img src="{{ '/assets/icons/git.svg' | relative_url}}" alt="Git Icon">
+          <span>Git</span>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <section id="resume" class="resume">
+    <div class="wrapper">
+
+      <h2 class="section-title">Resume</h2>
+      <div class="resume-header">
+        <a href="{{ '/assets/docs/Software Dev Resume-Alex N.pdf' | relative_url}}" target="_blank"
+          class="resume-button">View My Resume</a>
+      </div>
+
+      <div class="resume-card">
+        <h2 class="resume-subtitle">Experience</h2>
+        <h3 class="role-title">Student - LaunchCode</h3>
+        <p class="date">August 2025 - March 2026</p>
+        <h4 class="role-title">Capstone Project - Travel Mate</h4>
+        <ul>
+          <li>Designed and developed a React-based web application using modular, reusable components to plan, save, and
+            manage travel itineraries</li>
+          <li>Implemented multi-page navigation using React Router, ensuring a seamless user experience</li>
+          <li>Developed backend services using Java and Spring Boot to support user accounts, persistent data storage,
+            and
+            full CRUD operations with MySQL</li>
+          <li>Integrated a third-party exchange REST API and handled asynchronous data fetching and state management in
+            React</li>
+          <li><strong>Full Project Tech Stack:</strong> Java, JavaScript, React, Spring Boot, MySQL, HTML, CSS,
+            exchange-api
+          </li>
+        </ul>
+
+        <h3 class="role-title">Senior Associate Scientist - Millipore Sigma</h3>
+        <p class="date">May 2022 - August 2025</p>
+        <ul>
+          <li>Maintained strict documentation and quality standards while performing data-driven enzymatic and protein
+            assays in a regulated production environment</li>
+          <li>Updated Master Manufacturing Procedures annually and authored a new operational procedure adopted
+            site-wide
+          </li>
+          <li>Managed product ordering, release, costing, and batch record research using Systems, Applications, and
+            Products (SAP / SAP Next) and ManGo</li>
+          <li>Resolved real-time production issues to maintain a Right-First-Time rate above 90% and delivered projects
+            on
+            schedule with up to 100% On-Time Delivery.</li>
+          <li>Trained and mentored employees on ÄKTA (automated liquid chromatography system) and Unicorn software</li>
+        </ul>
+
+        <h3 class="role-title">Associate Scientist - Millipore Sigma</h3>
+        <p class="date">March 2021 - May 2022</p>
+        <ul>
+          <li>Designed a process improvement plan to enhance safety and operational efficiency, reducing workflow
+            bottlenecks and improving team throughput</li>
+          <li>Submitted recurring safety observations, demonstrating proactive attention to system improvement</li>
+          <li>Collaborated cross-functionally with Quality Control (QC), Quality Assurance (QA), and production teams to
+            resolve process issues, maintain production timelines, and ensure product quality standards</li>
+        </ul>
+
+        <h3 class="role-title">Lab Technician 2 - Teledyne Brown Engineering</h3>
+        <p class="date">September 2020 - March 2021</p>
+        <ul>
+          <li>Conducted compliance-driven testing and analysis, adhering to strict regulatory and quality standards</li>
+          <li>Operated and maintained complex analytical systems, demonstrating strong troubleshooting and system
+            reliability skills</li>
+          <li>Authored clear, structured reports and data summaries using Microsoft Word and Excel, ensuring accurate
+            documentation and knowledge sharing</li>
+          <li>Performed equipment servicing, and controlled startup/shutdown procedures</li>
+          <li>Maintained security and data integrity standards while working under an active Secret clearance, ensuring
+            compliance with protocols and safeguarding sensitive information</li>
+        </ul>
+
+        <h2 class="resume-subtitle">Education</h2>
+        <ul>
+          <li>LaunchCode - Software Development, March 2026</li>
+          <li>University of Missouri - Coursework</li>
+          <ul>
+            <li>Introduction to Computing</li>
+            <li>Advanced Graduate Biochemistry</li>
+            <li>Advanced Biotechnology Laboratory 2</li>
+            <li>Advanced Plant Biology and Biotechnology</li>
+            <li>Advanced Instrumental Analysis</li>
+          </ul>
+          <li>University of Tennessee - Bachelor of Science in Biology, 2014</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+
+      <div class="social-icons">
+        <a href="mailto:afneal0226@gmail.com" aria-label="Email">
+          <img src="{{ '/assets/icons/maildotru.svg' | relative_url }}" alt="Email Icon">
+        </a>
+        <a href="https://linkedin.com/in/alexandria-neal" target="_blank" aria-label="LinkedIn">
+          <img src="{{ '/assets/icons/linkedin-brands-solid-full.svg' | relative_url }}" alt="LinkedIn Logo">
+        </a>
+        <a href="https://github.com/afneal" target="_blank" aria-label="GitHub">
+          <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub Logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

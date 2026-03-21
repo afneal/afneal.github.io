@@ -18,18 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alex's Portfolio
-email: afneal0226@gmail.com
-description: Aspiring software developer with a strong analytical background, focused on solving problems and building web applications using JavaScript, React, and HTML/CSS.
+title: Alex Neal Portfolio
+
 baseurl: ""
 url: "https://afneal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  afneal
-linkedin_username: alexandria-neal
 
 
 
 
-theme: minima
+
+# theme: minima
 
 
 plugins:
